@@ -49,7 +49,7 @@ namespace Oyun
                    Date = new DateTime(2001, 3, 3),
                    Ad = "Nurcan",
                    SoyAd = "AKSU",
-                   TcNo = "19777905432"
+                   TcNo = "1975745432"
                });
 
             Console.ReadLine();
@@ -58,18 +58,4 @@ namespace Oyun
         }
     }
 }
-
-            /*BaseCustomerManager customerManager = new NeroCustomerManager();//bu nero işletmesi için
-
-            //BaseCustomerManager baseCustomer = new StarBucksCustomerManager(new MernisServiceAdapter());
-
-            customerManager.Save(new Customer
-            {
-                DateOfBirth = new DateTime(2001, 3, 3),
-                FirstName = "Nurcan",
-                LastName = "AKSU",
-                NationalityId = "19777905432"
-            });
-            Console.ReadLine();
-        }*/
 
